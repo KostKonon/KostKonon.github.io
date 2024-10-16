@@ -1,9 +1,50 @@
-html {
-  font-size: 32px;
+* {
+  margin: 0;
+}
+@font-face {
+  font-family: 'EntezareZohoor2';
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+  font-weight: normal;
+  font-style: normal;
 }
 
+.header {
+  display: flex;
+  width: 1920px;
+  height: 147px;
+  background-image: url(image/Rectangle.svg);
+}
+.button {
+  padding: 15px 40px;
+}
 
-h1 {
-  color: red;
-  font-size: .5rem;
+.logo__img {
+  margin-left: 297px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  line-height: 24.51px;
+  list-style-type: none;
+  padding: 0;
+  width: 457px;
+  height: 25px;
+  display: flex;
+  margin: 61px 0 61px 237px;
+}
+.nav__title {
+  font-size: 18px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+
+}
+.header__button {
+  margin-top: 46px;
+  margin-left: 307px;
+  width: 131px;
+  height: 52px;
+  background-color: transparent;
+  border: 1px solid #1F1E1E;
 }
