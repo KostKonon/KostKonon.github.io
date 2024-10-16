@@ -12,7 +12,11 @@
   display: flex;
   width: 1920px;
   height: 147px;
-  background-image: url(image/Rectangle.svg);
+
+  background: #DEDEDE80;
+  backdrop-filter: blur(20px)
+
+
 }
 .button {
   padding: 15px 40px;
@@ -45,6 +49,11 @@
   margin-left: 307px;
   width: 131px;
   height: 52px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  text-align: center;
   background-color: transparent;
   border: 1px solid #1F1E1E;
 }
