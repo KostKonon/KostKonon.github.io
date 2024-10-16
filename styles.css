@@ -12,11 +12,8 @@
   display: flex;
   width: 1920px;
   height: 147px;
-
   background: #DEDEDE80;
   backdrop-filter: blur(20px)
-
-
 }
 .button {
   padding: 15px 40px;
@@ -27,7 +24,6 @@
 }
 
 .nav__list {
-  display: flex;
   justify-content: space-between;
   text-align: center;
   line-height: 24.51px;
@@ -42,18 +38,30 @@
   font-size: 18px;
   font-family: 'Open Sans',sans-serif;
   font-weight: 600;
-
+  text-decoration: none;
+  color: #1F1E1E;
 }
+.nav__title:hover {
+  color: #BC3324;
+}
+
 .header__button {
   margin-top: 46px;
   margin-left: 307px;
   width: 131px;
   height: 52px;
-  font-family: Open Sans;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 21.79px;
+  gap: 10px;
   text-align: center;
   background-color: transparent;
   border: 1px solid #1F1E1E;
 }
+
+.header__button:hover {
+  background-color: #1F1E1E;
+  color: #FFFFFF
+}
+
