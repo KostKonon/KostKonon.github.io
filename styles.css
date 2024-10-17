@@ -1,10 +1,18 @@
 * {
   margin: 0;
+  padding: 0;
 }
 
 html, 
 body {
-  overflow-x: auto;
+  overflow-x: hidden;
+}
+.body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 147px;
 }
 
 @font-face {
@@ -78,6 +86,10 @@ body {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   width: 1920px;
   height: 147px;
@@ -110,7 +122,7 @@ body {
   text-decoration: none;
   color: #1F1E1E;
 }
-.nav__title:hover {
+.nav__title:hover { 
   color: #BC3324;
 }
 
@@ -144,7 +156,7 @@ body {
   font-weight: 400;
   text-align: center;
   white-space: nowrap;
-  margin: 100px 0 0 701px;
+  margin: 100px 701px 0 701px;
 }
 
 .descriptive__image {
@@ -154,7 +166,7 @@ body {
 .descriptive__title-under {
   width: 990px;
   height: 116px;
-  margin: 70px 465px 0;
+  margin: 70px 465px 0; 
   text-align: center;
   font-family: Lora, sans-serif;
   font-size: 45px;
@@ -163,7 +175,7 @@ body {
 }
 
 .choice {
-  margin: 100px 648px 0;
+  margin: 100px 648px 200px;
   width: 624px;
   height: 128px;
   gap: 0px;
@@ -203,6 +215,7 @@ body {
 }
 
 .button__choice1:hover {
+  /* Q!!!!!! */
   color: #FFFFFF;
   background-color: #A51505;
 }
@@ -222,6 +235,7 @@ body {
 }
 
 .button__choice2:hover {
+  /* Q!!!!!! */
   color: #FFFFFF;
   background-color: #1F1E1E;
 }
