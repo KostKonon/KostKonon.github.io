@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+html, 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
 	font-family: "Open Sans";
 	src: local("Open Sans"),
@@ -49,6 +54,26 @@
     url("fofonts/Open-Sans/open-sans-extrabold.woff") format("woff"), /* Modern Browsers */
     url("fonts/Open-Sans/open-sans-extrabold.ttf") format("ttf"); /* Safari, Android, iOS */
 	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lora";
+	src: local("Lora"),
+    url("fonts/Lora/Lora-Regular.woff2") format("woff2"), /* Modern Browsers */
+    url("fonts/Lora/Lora-Regular.woff") format("woff"), /* Modern Browsers */
+    url("fonts/Lora/Lora-Regular.ttf") format("ttf"); /* Safari, Android, iOS */
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lora";
+	src: local("Lora"),
+    url("fonts/Lora/Lora-Medium.woff2") format("woff2"), /* Modern Browsers */
+    url("fonts/Lora/Lora-Medium.woff") format("woff"), /* Modern Browsers */
+    url("fonts/Lora/Lora-Medium.ttf") format("ttf"); /* Safari, Android, iOS */
+	font-weight: 500;
 	font-style: normal;
 }
 
@@ -108,4 +133,100 @@
   background-color: #1F1E1E;
   color: #FFFFFF
 }
+.descriptive__all {
+  margin: 0;
+}
+
+.descriptive__title-over,
+.descriptive__title-under {
+  font-family: Lora, sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+.descriptive__title-over {
+  font-family: Lora, sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  margin: 100px auto 0;
+}
+
+.descriptive__image {
+  margin-top: 70px;
+}
+
+.descriptive__title-under {
+  margin: 70px 465px 0;
+  text-align: center;
+  font-family: Lora, sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.choice {
+  margin: 100px 648px 0;
+  width: 624px;
+  height: 128px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.choice__title {
+  font-family: Lora;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.choice__button-list {
+
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.button__choice1 {
+  width: 272px;
+  height: 52px;
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  line-height: 21.79px;
+  text-align: center;
+  background-color: #BC3324;
+  border: none;
+}
+
+.button__choice1:hover {
+  color: #FFFFFF;
+  background-color: #BC3324;
+}
+
+.button__choice2 {
+  width: 272px;
+  height: 52px;
+  background-color: transparent;
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1F1E1E;
+  line-height: 21.79px;
+  text-align: center;
+  border: 1 solid #1F1E1E;
+  gap: 10;
+}
+
+
 
