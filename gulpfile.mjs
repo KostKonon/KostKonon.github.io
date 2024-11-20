@@ -21,7 +21,7 @@ const resources = {
   html: "src/html/**/*.html",
   jsDev: "src/scripts/dev/**/*.js",
   jsVendor: "src/scripts/vendor/**/*.js",
-  images: "src/assets/images/**/*.{png,jpg,jpeg,webp,gif,svg}",
+  images: "src/assets/image/**/*.{png,jpg,jpeg,webp,gif,svg}",
   less: "src/styles/**/*.less",
   svgSprite: "src/assets/svg-sprite/*.svg",
   static: [
@@ -101,7 +101,7 @@ function copy() {
     })
     .pipe(gulp.dest("dist/"));
 }
-function images() {
+function image() {
   return gulp
     .src(resources.images, { encoding: false })
     .pipe(
@@ -111,8 +111,17 @@ function images() {
         imagemin_optipng({ optimizationLevel: 5 })
       ])
     )
-    .pipe(gulp.dest('dist/assets/images'));
+    .pipe(gulp.dest('dist/assets/image'));
 }
+// export const images = () => {
+//   return gulp
+//     .src('src/assets/images/**/*') // Проверьте правильность указанного пути
+//     .pipe(imagemin())
+//     .pipe(gulp.dest('dist/assets/images'));
+// }
+
+// // Добавьте таск images в ваш основной таск
+// gulp.task('default', gulp.series(images, /* другие таски */));
 function svgSprite() {
   return gulp
     .src(resources.svgSprite)
