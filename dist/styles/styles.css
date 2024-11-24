@@ -125,6 +125,11 @@ textarea:focus::placeholder {
   display: inline-block;
   text-align: center;
   cursor: pointer;
+  background-color: #ffffff;
+}
+.btn:hover {
+  background-color: #1f1e1e;
+  color: #ffffff;
 }
 .btn-red {
   text-decoration: none;
@@ -133,7 +138,7 @@ textarea:focus::placeholder {
   display: inline-block;
   text-align: center;
   background-color: #bc3324;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .btn-red:hover {
@@ -233,14 +238,11 @@ textarea:focus::placeholder {
 }
 .page-header__user-btn {
   color: #1f1e1e;
-}
-.page-header__user-btn:hover {
-  background-color: #1f1e1e;
-  color: #ffffff;
+  background-color: transparent;
 }
 @supports ((-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))) {
   .page-header {
-    background-color: rgba(222, 222, 222, 0.5);
+    background-color: #dedede;
     -webkit-backdrop-filter: blur(20px);
             backdrop-filter: blur(20px);
   }
@@ -271,7 +273,7 @@ textarea:focus::placeholder {
   line-height: 1.27;
 }
 .choice {
-  margin: 100px 648px 0;
+  margin: 100px auto;
   width: 624px;
   height: 128px;
   gap: 0px;
@@ -298,6 +300,15 @@ textarea:focus::placeholder {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+.choice__btn-list .btn__choice {
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 40px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.choice__btn-list .btn__choice-right {
+  padding: 15px 44px;
 }
 .about {
   -webkit-box-sizing: border-box;
@@ -326,6 +337,7 @@ textarea:focus::placeholder {
   font-weight: 400;
   line-height: normal;
   float: right;
+  line-height: 1.375;
 }
 .headline {
   display: -webkit-box;

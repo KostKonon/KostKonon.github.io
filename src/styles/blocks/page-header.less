@@ -62,17 +62,13 @@
   }
   &__user-btn {
     color: @black;
-
-    &:hover {
-      background-color: @black;
-      color: @white;
-    }
+    background-color: transparent;
   }
 }
 
 @supports (backdrop-filter: blur(20px)) {
   .page-header {
-    background-color: rgba(222, 222, 222, 0.5);
+    background-color: @gray;
     backdrop-filter: blur(20px);
   }
 }

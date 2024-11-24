@@ -5,6 +5,11 @@
   display: inline-block;
   text-align: center;
   cursor: pointer;
+  background-color: @white;
+  &:hover{
+    background-color: @black;
+    color: @white;
+  }
   &-red{
       text-decoration: none;
       padding:15px 40px;
@@ -12,7 +17,7 @@
       display: inline-block;
       text-align: center;
       background-color: @red;
-      color:#FFFFFF;
+      color:@white;
       cursor: pointer;
       &:hover{
           background-color: @red_dark;
