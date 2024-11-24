@@ -33,7 +33,7 @@ body {
   width: 1920px;
   min-height: 100vh;
   padding-top: 147px;
-  color: #1F1E1E;
+  color: #1f1e1e;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -132,12 +132,12 @@ textarea:focus::placeholder {
   border: none;
   display: inline-block;
   text-align: center;
-  background-color: #BC3324;
+  background-color: #bc3324;
   color: #FFFFFF;
   cursor: pointer;
 }
 .btn-red:hover {
-  background-color: #A51505;
+  background-color: #a51505;
 }
 .is-hidden {
   position: absolute !important;
@@ -206,7 +206,7 @@ textarea:focus::placeholder {
 }
 .page-header__nav-link {
   margin: 0 25px;
-  color: #1F1E1E;
+  color: #1f1e1e;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 18px;
@@ -216,7 +216,7 @@ textarea:focus::placeholder {
   transition: color 0.2s;
 }
 .page-header__nav-link:hover {
-  color: #BC3324;
+  color: #bc3324;
 }
 .page-header__right-block {
   display: -webkit-box;
@@ -278,7 +278,7 @@ textarea:focus::placeholder {
   border: 1px 0px 0px 0px;
 }
 .choice__title {
-  font-family: Lora;
+  font-family: Lora, sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 30px;
@@ -340,7 +340,7 @@ textarea:focus::placeholder {
           flex-direction: column;
   width: 624px;
   height: 62px;
-  background-color: #1F1E1E;
+  background-color: #1f1e1e;
 }
 .headline__about {
   text-align: center;
@@ -350,7 +350,7 @@ textarea:focus::placeholder {
   padding: 8px 45px;
   background-color: #1f1e1e;
   font-family: "Lora", serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 36px;
   font-style: normal;
   font-weight: 500;
@@ -415,7 +415,7 @@ textarea:focus::placeholder {
   min-height: 62px;
   margin: 0 auto 150px;
   padding: 8px 45px;
-  background-color: #1F1E1E;
+  background-color: #1f1e1e;
   color: #ffffff;
   font-family: "Lora", serif;
   font-weight: 500;
@@ -452,12 +452,12 @@ textarea:focus::placeholder {
       -ms-flex-positive: 1;
           flex-grow: 1;
   width: 100%;
-  color: #1F1E1E;
+  color: #1f1e1e;
   text-decoration: none;
 }
 .event-card__link:hover .event-card__title {
-  color: #BC3324;
-  text-decoration-color: #BC3324;
+  color: #bc3324;
+  text-decoration-color: #bc3324;
 }
 .event-card__picture {
   display: block;
@@ -486,7 +486,7 @@ textarea:focus::placeholder {
 }
 .event-card__title {
   margin: 0 0 15px;
-  color: #1F1E1E;
+  color: #1f1e1e;
   font-weight: 600;
   font-size: 24px;
   line-height: 33px;
