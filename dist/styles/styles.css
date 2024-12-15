@@ -45,7 +45,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 1920px;
-  min-height: 100vh;
   padding-top: 147px;
   color: #1F1E1E;
   font-family: "Open Sans", sans-serif;
